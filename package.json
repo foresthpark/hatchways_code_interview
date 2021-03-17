@@ -1,0 +1,29 @@
+{
+  "name": "hatchways",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "nodemon": "nodemon app.js",
+    "test": "nyc mocha",
+    "coverage": "nyc npm run test"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "~1.4.4",
+    "core-js": "^3.6.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5",
+    "nyc": "^15.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "supertest": "^5.0.0"
+  }
+}
